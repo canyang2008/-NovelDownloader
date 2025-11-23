@@ -50,33 +50,11 @@
 
 使用前最好登录网站  
 
-### 如何获取小说链接
-
-- **电脑版界面**
-![电脑版](./src/data/Demo/电脑版.jpg)
-<br>
-
-<br>
-
-- **手机版界面**
-![手机版](./src/data/Demo/手机版.jpg)
-<br>
-<br>
-
-- **同时也支持分享链接**（*即“系统分享”的链接*）
-![分享链接](./src/data/Demo/分享链接.jpg)
-<br>
-<br>
-
 ### 下载示例
 
 在程序内填入
 ```text
 https://fanqienovel.com/page/7276384138653862966
-```
-在外部调用(Python)
-```text
-python main.py --url=https://fanqienovel.com/page/7276384138653862966 --update=True --range=1,3-5,7-9
 ```
 
 
@@ -117,12 +95,6 @@ python main.py --url=https://fanqienovel.com/page/7276384138653862966 --update=T
 2.找到QQ机器人卡特，私聊进行操作获取key  
 3.在程序内填入即可  
 
-  <br>
-  **演示**
-  ![QQ机器人卡特](./src/data/Demo/QQ机器人卡特.jpg)
-*API官网链接：https://oiapi.net*  
-  *API项目链接：https://oiapi.net/doc/?id=115*
-
 ## 配置说明
 
 ### 浏览器说明
@@ -140,12 +112,7 @@ python main.py --url=https://fanqienovel.com/page/7276384138653862966 --update=T
 分组成员配置：`data\Local\json\mems.json`
 
 ### 输出格式说明
-
-- JSON格式：保留完整小说信息与图片数据（Base64编码）
-
 - TXT格式：纯文本格式，支持按章节或文件大小分割
-
-- HTML格式：带阅读器界面的HTML文件
 
 ## 注意事项
 
@@ -166,10 +133,6 @@ python main.py --url=https://fanqienovel.com/page/7276384138653862966 --update=T
 作者不可能也不会，本程序透明，可以完全经受住考验  
 若不信任，请移步至其他同类型工具
 
-### ❓ HTML文件加载缓慢
-
-当小说含有大量图片时，生成的图片嵌入式HTML文件可能较大，加载需要较长时间（144MB文件约需2-3分钟加载）
-
 ### ❓ 配置文件丢失
 
 如果`mems.json` | `UserConfig.json` | `mems.json`文件丢失或损坏，全部需要重新下载小说内容，建议定期备份此文件。
@@ -184,6 +147,6 @@ python main.py --url=https://fanqienovel.com/page/7276384138653862966 --update=T
 
 - **作者**：Canyang2008
 
-- **群**：QQ 765857967
+- **群**：QQ 3893368156
 
 欢迎提出建议与新的功能想法！
